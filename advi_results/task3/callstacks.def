@@ -1,0 +1,31 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      4608	    0	      0	                                  _start	/home/u175844/tarea	4608	47	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      4653	    0	      0	                                  _start	/home/u175844/tarea	4608	47	0	1	0	0	0	0	0	0	0	0
+         3	        14	    147586	    1	      1	     [Loop@0x23ff6 in __libc_start_main]	/lib/x86_64-linux-gnu/libc.so.6	147446,147688	228,139	0	2	0	0	0	0	0	0	0	0
+         4	        18	      5485	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+         5	        18	      5456	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+         6	        18	      5473	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+         7	        18	      5490	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+         8	        18	      5477	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+         9	        18	      5461	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+        10	        18	      5451	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+        11	        18	      5502	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+        12	        18	      5448	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+        13	        18	      5542	    1	      0	                   [Loop@0x152c in main]	/home/u175844/tarea	5420	145	5565	3	0	0	0	0	0	0	0	0
+        14	         2	    147446	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	147344	483	0	4	0	0	0	0	0	0	0	0
+        15	         2	    147586	    0	      1	                       __libc_start_main	/lib/x86_64-linux-gnu/libc.so.6	147344	483	0	4	0	0	0	0	0	0	0	0
+        16	         3	      5349	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        17	        16	      5368	    1	      0	                   [Loop@0x14e5 in main]	/home/u175844/tarea	5349	234	5583	7	0	0	0	0	0	0	0	0
+        18	        17	      5420	    1	      0	                   [Loop@0x14f8 in main]	/home/u175844/tarea	5368	206	5574	6	0	0	0	0	0	0	0	0
+        19	         3	      5485	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        20	         3	      5456	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        21	         3	      5473	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        22	         3	      5490	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        23	         3	      5477	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        24	         3	      5461	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        25	         3	      5451	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        26	         3	      5502	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        27	         3	      5448	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        28	         3	      5542	    0	      0	                                    main	/home/u175844/tarea	4841	966	0	5	0	0	0	0	0	0	0	0
+        29	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	9	0	0	0	0	0	0	0	0

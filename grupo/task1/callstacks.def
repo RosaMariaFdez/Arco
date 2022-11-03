@@ -1,0 +1,28 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      4608	    0	      0	                                  _start	/home/rosam/Arco/tarea1	4608	38	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      4644	    0	      0	                                  _start	/home/rosam/Arco/tarea1	4608	38	0	1	0	0	0	0	0	0	0	0
+         3	        13	    171583	    1	      1	[Loop at line 379 in __libc_start_main_impl]	/lib/x86_64-linux-gnu/libc.so.6	171555,171688	129,65	0	6	0	0	0	0	0	0	0	0
+         4	         3	    171407	    0	      1	                  __libc_start_call_main	/lib/x86_64-linux-gnu/libc.so.6	171280	172	0	8	0	0	0	0	0	0	0	0
+         5	        17	      5500	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+         6	        17	      5595	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+         7	        17	      5558	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+         8	        17	      5574	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+         9	        17	      5493	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+        10	        17	      5471	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+        11	        17	      5516	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+        12	        17	      5585	    1	      0	                   [Loop@0x155f in main]	/home/rosam/Arco/tarea1	5471	140	5611	2	0	0	0	0	0	0	0	0
+        13	         2	    171555	    0	      1	                  __libc_start_main_impl	/lib/x86_64-linux-gnu/libc.so.6	171456	328	0	7	0	0	0	0	0	0	0	0
+        14	         2	    171583	    0	      1	                  __libc_start_main_impl	/lib/x86_64-linux-gnu/libc.so.6	171456	328	0	7	0	0	0	0	0	0	0	0
+        15	         4	      5414	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        16	        15	      5426	    1	      0	                   [Loop@0x1526 in main]	/home/rosam/Arco/tarea1	5414	229	5643	5	0	0	0	0	0	0	0	0
+        17	        16	      5471	    1	      0	                   [Loop@0x1532 in main]	/home/rosam/Arco/tarea1	5426	201	5627	4	0	0	0	0	0	0	0	0
+        18	         4	      5500	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        19	         4	      5595	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        20	         4	      5558	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        21	         4	      5574	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        22	         4	      5493	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        23	         4	      5471	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        24	         4	      5516	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        25	         4	      5585	    0	      0	                                    main	/home/rosam/Arco/tarea1	4841	1084	0	3	0	0	0	0	0	0	0	0
+        26	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	10	0	0	0	0	0	0	0	0
